@@ -27,7 +27,7 @@ public class ImageAdapter extends ArrayAdapter<String> {
         }
         ImageView iv = convertView.findViewById(R.id.imageView);
         String s = getItem(position);
-        Picasso.get().load(s).resize(400, 500).centerCrop().into(iv);
+        Picasso.get().load(s).resize(500, 500).centerCrop().into(iv);
         return convertView;
     }
 }
