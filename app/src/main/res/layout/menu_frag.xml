@@ -10,7 +10,8 @@
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#A3A1A1"/>
+        android:background="#A3A1A1"
+        />
 
 
 </FrameLayout>

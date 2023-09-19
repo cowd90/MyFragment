@@ -16,7 +16,7 @@ import java.util.Arrays;
 
 public class MenuFrag extends Fragment {
 
-    String[] menu = {"Food", "Drink", "Desert"};
+    String[] menu = {"Food", "Drink", "Dessert"};
     private IFragmentClickListener itemFragment;
 
     @Override
